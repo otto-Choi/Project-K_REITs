@@ -1,0 +1,14 @@
+# 텍스트 파일 줄바꿈 자동 정규화
+* text=auto
+
+# 노트북 / 데이터는 LF 고정
+*.ipynb text eol=lf
+*.csv   text eol=lf
+*.md    text eol=lf
+
+# 바이너리 파일은 변환 안 함
+*.pdf   binary
+*.docx  binary
+*.xlsx  binary
+*.png   binary
+*.jpg   binary

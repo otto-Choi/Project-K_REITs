@@ -1,0 +1,32 @@
+# ── Python ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyc
+.ipynb_checkpoints/
+*.egg-info/
+.env
+
+# ── OS ────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Large raw data (exceeds GitHub 100 MB file limit) ─────
+# KRX marcap 연도별 CSV: 파일당 56–107 MB, 총 ~1.5 GB
+data/raw/주가 데이터/
+
+# ── Exploratory / work-in-progress ────────────────────────
+# colab/ 은 notebooks/ 최종본의 작업 사본 (내용 중복)
+notebooks/colab/
+# 중간 가공/ 은 최종 notebooks/ 에 흡수된 탐색 작업
+data/raw/중간 가공/
+
+# ── Oversized PDFs (>50 MB, part-1~4 분할본이 대신 커밋됨) ──
+docs/presentation/리츠 투자 가치 분석.pdf
+docs/presentation/리츠 투자 가치 분석(부록제외).pdf
+
+# ── 참고 논문 ──────────────────────────────────────────────
+docs/references/
+
+# ── Junk / placeholder ────────────────────────────────────
+data/raw/베타 데이터/새 Microsoft Excel 워크시트.xlsx
